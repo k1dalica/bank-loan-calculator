@@ -1,0 +1,22 @@
+$--color-primary: #00d4cb;
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+@import "~element-ui/packages/theme-chalk/src/index";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f3f7ff;
+}
+
+.el-slider__marks-text {
+  white-space: nowrap;
+}
+
+.box-card {
+  padding: 30px;
+  h1 {
+    margin: 0 0 50px 0;
+  }
+}
